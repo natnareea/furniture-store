@@ -195,11 +195,14 @@ model-viewr {
         border-radius: 10px;
         width: 80%;
         align-items: center;
+        text-align: center;
     }
 
     .image-grid {
         grid-template-columns: 1fr; /* Single column for mobile devices */
         grid-gap: 10px; /* Further reduced gap for mobile devices */
+        align-items: center;
+        text-align: center;
     }
 
     .product-name p,
