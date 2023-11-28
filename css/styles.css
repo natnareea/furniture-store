@@ -144,7 +144,10 @@ model-viewr {
         font-size: 18px; /* Reduced font size for tablets */
     }
 
-    /* ... (other style adjustments for tablets) ... */
+    .image-container {
+        background-color: white;
+    }
+
 
     .image-grid {
         grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
@@ -181,7 +184,9 @@ model-viewr {
         font-size: 16px; /* Further reduced font size for mobile devices */
     }
 
-    /* ... (other style adjustments for mobile devices) ... */
+    .image-container {
+        background-color: white;
+    }
 
     .image-grid {
         grid-template-columns: 1fr; /* Single column for mobile devices */
@@ -206,4 +211,5 @@ model-viewr {
         font-size: 12px;
         width: 50%;
     }
+
 }
