@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nene store</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <img src="./images/Hero_image.png" alt="Header Image" class="header-img">
+        <div class="header-text">
+            <h1>ne ne</h1>
+            <p>Furniture store</p>
+        </div>
+    </header>
+
+    <h2>Browse our best sellers</h2>
+
+    <div class="image-grid">
+        <div class="image-container">
+            <model-viewer id="model1" src="./models/product1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+                <button class="Hotspot" slot="hotspot-1" data-position="0.22473211886425554m 0.7036946168042216m -0.11808638489382917m" data-normal="-0.34498134832738514m 0.28359217618283544m 0.8947420560776739m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Denim fabric</div>
+                </button><button class="Hotspot" slot="hotspot-2" data-position="-0.27146321497489073m 0.467454965509672m 0.32732901954701665m" data-normal="0.7647333896986293m 0.6436448447944878m 0.030069194361076412m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Support your body</div>
+                </button>
+
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+
+            </model-viewer>
+            
+            <div class="product-name">
+                <p>
+                    <a href="#">Bean bag chair</a>
+                </p>
+            </div>
+            <div class="product-price">
+                <p>$10.00</p>
+            </div>
+
+            <div class="color-selector">
+                <label for="colorDropdown1">Select Color:</label>
+                <select id="colorDropdown1" onchange="changeColor('model1')">
+                    <option value="peach">Peach</option>
+                    <option value="cream">Cream</option>
+
+                </select>
+            </div>
+
+        </div>
+
+        <div class="image-container">
+            <model-viewer id="model2" src="./models/product2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+                <button class="Hotspot" slot="hotspot-2" data-position="0.8404408125697856m 0.8106803824597638m -0.11209404031091452m" data-normal="-0.41214693143164005m 0.5445207949929801m 0.7305012051541708m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Rib knit fabric</div>
+                </button><button class="Hotspot" slot="hotspot-3" data-position="-0.6725379603010807m 0.6144077016134519m 0.00190373413904954m" data-normal="0.03215029124745177m 0.38697501715149707m 0.9215295409661607m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Soft cushion</div>
+                </button>
+
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+            </model-viewer>
+            <div class="product-name">
+                <p>
+                    <a href="#">Couch</a>
+                </p>
+            </div>
+            <div class="product-price">
+                <p>$10.00</p>
+            </div>
+
+            <div class="color-selector">
+                <label for="colorDropdown2">Select Color:</label>
+                <select id="colorDropdown2" onchange="changeColor('model2')">
+                    <option value="light-beige">Light beige</option>
+                    <option value="gray">Gray</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <model-viewer id="model3" src="./models/product3.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+                <button class="Hotspot" slot="hotspot-1" data-position="-0.10878761436598788m 0.5714612755176347m -0.4635648274084754m" data-normal="-0.5085829658531215m 0.11325555858831798m 0.8535318068431256m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Natural buffalo leather</div>
+                </button><button class="Hotspot" slot="hotspot-3" data-position="-0.43545468099309603m 0.02352823130786419m 0.07270943545311503m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Wood</div>
+                </button>
+
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+            </model-viewer>
+            <div class="product-name">
+                <p>
+                    <a href="#">Chair</a>
+                </p>
+            </div>
+            <div class="product-price">
+                <p>$10.00</p>
+            </div>
+
+            <div class="color-selector">
+                <label for="colorDropdown3">Select Color:</label>
+                <select id="colorDropdown3" onchange="changeColor('model3')">
+                    <option value="brown">Brown</option>
+                    <option value="beige">Beige</option>
+
+                </select>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        All rights reserved by nene store.
+    </footer>
+    
+</body>
+<script src="js/script.js"></script>
+</html>
