@@ -168,7 +168,7 @@ model-viewr {
     }
 
     .color-selector select {
-        padding: 8px;
+        padding: 12px;
         font-size: 14px;
         width: 100%; /* Full width for tablets */
         border: 1px solid #ccc;
@@ -213,8 +213,8 @@ model-viewr {
     }
 
     .color-selector select {
-        padding: 6px;
-        font-size: 12px;
+        padding: 10px;
+        font-size: 14px;
         width: 50%;
         border: 1px solid #ccc;
         border-radius: 4px;
