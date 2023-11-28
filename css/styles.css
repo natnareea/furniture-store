@@ -175,6 +175,7 @@ model-viewr {
         border-radius: 4px;
         background-color: #fff;
         cursor: pointer;
+        color: #4b3a26;
         
     }
 }
@@ -219,6 +220,7 @@ model-viewr {
         border-radius: 4px;
         background-color: #fff;
         cursor: pointer;
+        color: #4b3a26;
     }
 
 }
