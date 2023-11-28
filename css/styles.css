@@ -223,4 +223,8 @@ model-viewr {
         color: #4b3a26;
     }
 
+    footer {
+        font-size: 10px;
+    }
+
 }
