@@ -192,6 +192,8 @@ model-viewr {
 
     .image-container {
         background-color: white;
+        border-radius: 10px;
+        width: 80%;
     }
 
     .image-grid {
