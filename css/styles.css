@@ -193,7 +193,7 @@ model-viewr {
     .image-container {
         background-color: white;
         border-radius: 10px;
-        width: 80%;
+        width: 100%;
         align-items: center;
         text-align: center;
     }
