@@ -171,6 +171,11 @@ model-viewr {
         padding: 8px;
         font-size: 14px;
         width: 100%; /* Full width for tablets */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        cursor: pointer;
+        
     }
 }
 
@@ -210,6 +215,10 @@ model-viewr {
         padding: 6px;
         font-size: 12px;
         width: 50%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        cursor: pointer;
     }
 
 }
